@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<currencies>
+    <currency>
+        <code>HKD</code>
+        <conversionRateToUSD>0.13</conversionRateToUSD>
+    </currency>
+    <currency>
+        <code>RMB</code>
+        <conversionRateToUSD>2</conversionRateToUSD>
+    </currency>
+</currencies>
