@@ -48,6 +48,6 @@ public class PaymentStorageInMemory implements PaymentStorage {
     public Map<String, Long> getPaymentsPerCurrency() {
         return paymentsPerCurrency.entrySet().stream()
                 .filter(x -> x.getValue().sum() != 0)
-                .collect(Collectors.toMap(x -> x.getKey(), x -> x.getValue().sum()));
+                .collect(Collectors.toMap(Map.Entry::getKey, x -> x.getValue().sum()));
     }
 }

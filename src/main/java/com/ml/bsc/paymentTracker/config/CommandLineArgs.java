@@ -4,8 +4,6 @@ import org.apache.commons.cli.*;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import java.io.PrintStream;
-
 public class CommandLineArgs {
 
     private Log log = LogFactory.getLog(CommandLineArgs.class);
